@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+	color: #FFFFFF; background-color: #FFFFFF; font-style: normal; font-weight: normal; list-style-type: disc; }
+
+<!-- 
+
+h1 {  font-family: Arial, Helvetica, sans-serif; font-size: 36px; color: #660000} 
+
+-->
+
+/* división de la página */
+#top{
+ padding-bottom:10px;
+ 
+}
+
+#content {
+/* float: left;*/
+ width: 800px;
+ height: 100%;
+}
+
+
+#leftnav {
+ float: left;
+ width: 150px;
+ height: 100%;
+ border-right: 1px solid gray;
+
+ }
+ 
+#arribaDcha {
+ margin-right: 200px;
+}
+
+
+#arribaIzq {
+ float: left;
+ padding: 1em;
+}
+
+#abajo{
+ padding-left:10px;
+ margin-right: 200px;
+ margin-left: 200px;
+ 
+}
+
+/* lo que venía por defecto en us.es*/
+.texto10 {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #660000 }
+
+.texto10-blanco {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #FFFFFF}
+
+.texto10-bold { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #660000 }
+
+.texto10-bold { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #660000 }
+
+.texto11-blanco {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #FFFFFF}
+
+.texto12 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; color: #660000 }
+
+.texto12-blanco {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; color: #FFFFFF }
+
+.texto12-amarillo {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; font-variant: normal; color: #FFCC66 }
+
+.texto12-oblicuo-amarillo {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: oblique; font-weight: normal; font-variant: normal; color: #FFCC66 }
+
+.texto12-oblicuo {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: oblique; font-weight: normal; font-variant: normal; color: #660000 }
+
+.texto12-oblicuo-blanco {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: oblique; font-weight: normal; font-variant: normal; color: #FFFFFF }
+
+.texto12-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold }
+
+.texto12-bold-rojo {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #9A182B }
+
+.texto12-bold-blanco {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #FFFFFF}
+
+.texto12-bold2 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold ; color: #660000; margin-top: 10px; margin-bottom: 5px; }
+
+.texto12-bold3 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold ; color: #660000; margin-top: 5px; margin-bottom: 0px; }
+
+.texto12-justi {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #660000; text-align: justify; text-indent: 20px}
+
+.texto12-justi-noidentado {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #660000; text-align: justify}
+
+.texto12-left30 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #660000; text-align: justify; margin-left: 30px}
+
+.texto12-left40 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #660000; text-align: justify; margin-left: 45px}
+
+.texto14 {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal ; text-align: justify; color: #660000 }
+
+.texto14-indent {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal ; text-align: justify; color: #660000; text-indent: 20px }
+
+.texto14-amarillo {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal ; text-align: justify; color: #FFCC66 }
+
+.texto14-amarillo-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #ffcc66}
+
+.texto14-sjus {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal ; color: #660000 }
+
+.texto14-li { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal ; text-align: justify; text-indent: 0px; color: #660000 }
+
+.texto14-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: bold ; color: #660000 }
+
+.texto14-bold2 {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: bold ; color: #660000; margin-top: 10px; margin-bottom: 5px; }
+
+.texto14-bold3 {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: bold ; color: #660000; margin-top: 5px; margin-bottom: 0px; }
+
+.texto14-subrayado {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; font-variant: normal; color: #660000; text-decoration: underline}
+
+.texto15 {  font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #660000}
+
+.texto16 {  font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #660000}
+
+.texto16-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #660000}
+
+.texto16-amarillo-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #FFCC66}
+
+.texto16-bold2 {  font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: bold ; color: #660000; margin-top: 5px; margin-bottom: 0px; }
+
+.texto18 {  font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: normal; color: #660000}
+
+.texto18-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #9A182B; margin-top: 0px; margin-bottom: 0px; }
+
+.texto20-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold; color: #660000}
+
+.texto24-amarillo-bold {  font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; color: #ffcc66}
+
+.fecha {  font-family: Arial, Helvetica, sans-serif; font-size: 8px; font-style: normal; font-weight: normal; color: #660000 }
+
+.imagen {  float: right; height: 180px; width: 240px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px }
+
+table {  color: #660000}
+
+li.disco { list-style: square; font-family: Arial, Helvetica, sans-serif; color: #660000; font-size : 14px; text-align: justify; text-indent: 0pt; margin: 0; margin-left: 0 }
+
+p { font-family : Arial, Helvetica, sans-serif; font-size : 14px; font-weight: normal; color: #660000; }
+
+
+
+.titulo-congre {  font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-style: normal; font-weight: bold; font-variant: normal; color: #660000; margin-top: 15px; margin-bottom: 20px }
+
+.titulo-sic {  font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-style: normal; font-weight: bold; font-variant: normal; color: #8c5252; margin-top: 15px; margin-bottom: 20px }
+
+.puntos {  font-family: Arial, Helvetica, sans-serif; font-size: 35px; font-style: normal; font-weight: bold; font-variant: normal; color: #FFFFFF; }
+
+.cabecera {  font-family: Times, sans-serif; font-size: 24px; font-style: normal; font-weight: bold; font-variant: small-caps; color: #FFFFFF; }
+}
